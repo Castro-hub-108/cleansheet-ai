@@ -139,7 +139,7 @@ if uploaded_file:
 else:
     st.info("Please upload a CSV or Excel file to start analysis.")
 
-st.title("🧼 CleanSheet AI")
+st.title("🧼 CleanSheet AI - Your Data Analysis Assistant")
 st.subheader("Smarter, faster, cleaner data")
 
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
